@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
   res.send("Hello There!");
 });
 
-app.post("/short", async (req, res) => {
+app.post("/", async (req, res) => {
   const found = await shortUrl.find({ full: req.body.full });
   if (found.length > 0) {
     res.send(found);
