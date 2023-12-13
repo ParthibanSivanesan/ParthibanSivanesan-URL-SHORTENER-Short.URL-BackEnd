@@ -9,11 +9,7 @@
   },
   "scripts": {
     "start": "node server.js",
-<<<<<<< HEAD
     "dev": "nodemon"
-=======
-    "dev": "nodemon" 
->>>>>>> bcefc07a8ebbfeb668a37b39ed5cfe5f4af7a85a
   },
   "author": "Parthiban Sivanesan",
   "license": "ISC",
