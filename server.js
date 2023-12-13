@@ -13,27 +13,12 @@ mongoose.connect(process.env.MONGO_URL, {
   useUnifiedTopology: true,
 });
 
-
-const base_array = [
-  'https://your-url-shortener.netlify.app/',
-  'http://localhost:3000',
-];
-
-// CORS 
 app.use(
   cors({
+    origin: "https://your-url-shortener.netlify.app/",
     credentials: true,
-    origin: function (origin, callback) {
-      if (base_array.indexOf(origin !== -1)) {
-        callback(null, true);
-      } else {
-        callback(new Error('Not allowed by cors'));
-      }
-    },
-    exposedHeaders: ['set-cookie'],
   })
 );
-
 
 
 app.use(express.urlencoded({ extended: false }));
