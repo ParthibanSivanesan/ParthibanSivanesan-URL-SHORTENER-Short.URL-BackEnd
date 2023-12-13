@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGO_URL, {
 
 
 const base_array = [
-  // 'https://deployed URL/',
+  'https://your-url-shortener.netlify.app/',
   'http://localhost:3000',
 ];
 
