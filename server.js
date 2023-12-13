@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGO_URL, {
 
 app.use(
   cors({
-    origin: "https://your-url-shortener.netlify.app/",
+    origin: "https://your-url-shortener.netlify.app/short",
     credentials: true,
   })
 );
