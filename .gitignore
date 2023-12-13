@@ -5,12 +5,4 @@
 .pnp.js
 node_modules/
 
-=======
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-node_modules/
-
->>>>>>> bcefc07a8ebbfeb668a37b39ed5cfe5f4af7a85a
 .env
