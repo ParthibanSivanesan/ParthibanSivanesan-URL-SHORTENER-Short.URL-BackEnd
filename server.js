@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGO_URL, {
 
 const base_array = [
  'https://your-url-shortener.netlify.app/',
-  // 'http://localhost:3000',
+  'http://localhost:3000',
 ];
 
 // CORS 
